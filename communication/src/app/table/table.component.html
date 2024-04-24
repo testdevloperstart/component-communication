@@ -1,0 +1,19 @@
+
+<table class="table">
+    <thead>
+      <tr>
+       
+        <th scope="col">Employee name</th>
+        <th scope="col">Company</th>
+        <th scope="col">Employee id</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let Emp of displaydetails">
+      <tr>
+        <td>{{Emp.fullname}}</td>
+        <td>{{Emp.companyname}}</td>
+        <td>{{Emp.employeeid}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
